@@ -7,3 +7,6 @@ export const ORDER_DETAILS_CODE_ALIAS =
 const ORDER_DETAILS_API_PARAM = 'orderDetails';
 export const ORDER_DETAILS_CODE_API_PARAM =
 	`${ORDER_DETAILS_API_PARAM}${CODE_ALIAS}` as const;
+
+export const ORDER_DETAILS_TABLE_NAME_PLURAL =
+	`${ORDER_DETAILS_ALIAS}` as const;

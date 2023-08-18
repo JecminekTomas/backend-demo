@@ -51,7 +51,7 @@ export class OrderDetails
 	code!: string;
 
 	@Column({
-		type: DataType.DECIMAL,
+		type: DataType.INTEGER,
 		allowNull: false,
 	})
 	quantity!: number;

@@ -1,41 +1,29 @@
 {
-    "extends": "../../tsconfig.app.json",
-    "compilerOptions": {
-        "noEmit": false,
-        "allowJs": true,
-        "outDir": "../../../../dist/apps/eshop/database",
-        "target": "es2018",
-        "module": "commonjs",
-        "moduleResolution": "node",
-        "lib": [
-            "ES2019"
-        ],
-        "resolveJsonModule": true,
-        "declaration": false,
-        "sourceMap": false,
-        "pretty": true,
-        "newLine": "lf",
-        "strictNullChecks": false,
-        "noImplicitAny": false,
-        "noImplicitReturns": false,
-        "noUnusedLocals": false,
-        "noUnusedParameters": false,
-        "noFallthroughCasesInSwitch": false,
-        "noEmitOnError": true,
-        "skipLibCheck": true,
-        "esModuleInterop": true,
-        "types": [
-            "node"
-        ]
-    },
-    "include": [
-        "**/*.ts",
-        "*.md",
-        "*.ts",
-        "*.js",
-        ".*.js"
-    ],
-    "exclude": [
-        "test/generated"
-    ]
+	"extends": "../../tsconfig.app.json",
+	"compilerOptions": {
+		"noEmit": false,
+		"allowJs": true,
+		"outDir": "../../../../dist/apps/eshop/database",
+		"target": "es2018",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"lib": ["ES2019"],
+		"resolveJsonModule": true,
+		"declaration": false,
+		"sourceMap": false,
+		"pretty": true,
+		"newLine": "lf",
+		"strictNullChecks": false,
+		"noImplicitAny": false,
+		"noImplicitReturns": false,
+		"noUnusedLocals": false,
+		"noUnusedParameters": false,
+		"noFallthroughCasesInSwitch": false,
+		"noEmitOnError": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"types": ["node"]
+	},
+	"include": ["**/*.ts", "*.md", "*.ts", "*.js", ".*.js"],
+	"exclude": ["test/generated"]
 }

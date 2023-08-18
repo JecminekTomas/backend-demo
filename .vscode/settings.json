@@ -8,13 +8,14 @@
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": true
 	},
-    "cSpell.words": [
-        "Cqrs",
-        "eshop",
-        "mailer",
-        "nestjs",
-        "UUIDV",
-        "workdir"
-    ],
-    "typescript.tsdk": "node_modules/typescript/lib"
+	"cSpell.words": [
+		"Cqrs",
+		"eshop",
+		"mailer",
+		"nestjs",
+		"Umzug",
+		"UUIDV",
+		"workdir"
+	],
+	"typescript.tsdk": "node_modules/typescript/lib"
 }

@@ -1,14 +1,15 @@
+import { Umzug, SequelizeStorage } from 'umzug';
 import { Sequelize } from 'sequelize';
-import { SequelizeStorage, Umzug } from 'umzug';
-/* eslint-disable no-console */
+import { config } from 'dotenv';
+config();
 
 export const sequelize = new Sequelize({
 	dialect: 'postgres',
-	host: 'localhost',
-	port: 5432,
-	username: 'postgres',
-	password: 'postgres',
-	database: 'backend-demo',
+	host: process?.env?.['DB_HOST'],
+	port: Number(process?.env?.['DB_PORT']) ?? 5433,
+	username: process?.env?.['DB_USERNAME'],
+	password: process?.env?.['DB_PASSWORD'],
+	database: process?.env?.['DB_NAME'],
 });
 
 export const migrator = new Umzug({
